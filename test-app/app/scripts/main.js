@@ -1,1 +1,4 @@
-console.log('\'Allo \'Allo!');
+require(['core'], function(core) {
+	'user strict';
+	console.log('core module loaded', core);
+});
