@@ -1,0 +1,8 @@
+.DS_Store
+
+test-app/node_modules/
+test-app/bower_components/
+*.log
+
+test-app/build/
+test-app/dist/
