@@ -1,4 +1,4 @@
 require(['core'], function(core) {
-	'user strict';
+	'use strict';
 	console.log('core module loaded', core);
 });
