@@ -1,7 +1,11 @@
 /* global define */
+'use strict';
+
 define(function() {
-	'use strict';
 	var self = {};
+	self.init = function() {
+		console.log('core mudule initialised!');
+	};
 	console.log('Module ready');
 	return self;
 });
