@@ -1,4 +1,4 @@
-/*global describe, it */
+/*global describe, it, define, expect */
 'use strict';
 
 define(['../../app/scripts/core'], function(core) {

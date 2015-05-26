@@ -1,4 +1,4 @@
-/* global define */
+/* global define, Modernizr */
 'use strict';
 
 define(function() {
@@ -7,5 +7,10 @@ define(function() {
 		console.log('core mudule initialised!');
 	};
 	console.log('Module ready');
+
+	if(Modernizr.canvas) {
+		console.log('canvas is present!');
+	}
+
 	return self;
 });

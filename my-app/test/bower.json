@@ -2,7 +2,8 @@
   "name": "test-app",
   "version": "0.0.0",
   "dependencies": {
-    "jasmine": "2.0.0"
+    "jasmine": "2.0.0",
+    "modernizr": "~2.8.3"
   },
   "devDependencies": {}
 }
